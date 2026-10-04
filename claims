@@ -1,0 +1,22 @@
+Author: Samriddhi
+Course: CS2102 - IITPSx Processor Project
+
+CLAIMS DECLARATION:
+
+1. Assembler (asm.c):
+   - Written in strict ISO C89 (compiles with -std=c89 -pedantic -W -Wall).
+   - Implements two-pass assembly for symbol resolution and displacement.
+   - Detects duplicate labels, missing labels, and unknown instructions.
+   - Generates binary object files (.o) starting at address zero.
+   - Produces formatted listing files (.lst).
+   - Implemented arithmetic extension instructions: mul and div.
+
+2. Emulator (emu.c):
+   - Loads binary object files into simulated memory.
+   - Correctly simulates registers A, B, PC, SP, and memory.
+   - Implements full instruction set execution including mul and div.
+   - Detects runtime errors (e.g., division by zero).
+
+3. Assembly Programs & Tests:
+   - Completed functional bubble.asm program.
+   - Created test cases for arithmetic, arithmetic extension (mul/div), and error diagnostic test cases.
